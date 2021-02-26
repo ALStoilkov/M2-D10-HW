@@ -1,0 +1,83 @@
+:root {
+  --gog: #86328a;
+}
+
+body {
+  background-color: #d8d8d8;
+}
+
+#logo {
+  background-color: rgb(228, 222, 222);
+}
+.navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+/* .navbar .navbar-dark .navbar-nav .nav-link li:last-of-type {
+  color: #86328a !important;
+} */
+
+.navbar i {
+  padding-right: 5px;
+}
+
+nav > img {
+  background-color: rgba(237, 232, 241, 0.932);
+  width: 30px;
+}
+
+main {
+  margin-top: 55px;
+}
+
+.carousel {
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #ececec;
+  margin: 10px;
+  box-shadow: (0, 0, 0, 0.15) 0px 1px 4px 0px;
+}
+
+div.card > img {
+  object-fit: cover;
+}
+
+.card-body {
+  background-color: #ececec;
+  padding: 0px;
+}
+
+.fab .fa-windows {
+  color: rgb(153, 153, 153);
+}
+
+.price {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.active {
+  color: var(--gog);
+  font-weight: bold;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--gog);
+}
+
+.purple {
+  color: #86328a;
+  font-weight: 700;
+}
